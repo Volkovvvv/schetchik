@@ -441,7 +441,8 @@ li {
   bottom: 176px;
   left: 401px;
   z-index: 1;
-  width: 250px
+  width: 250px;
+  animation-duration:2s;
 }
 
 .tab-question2 .sorokovik::after,
@@ -706,13 +707,13 @@ body {
   right: 24%;
   .vatichi{
     position: absolute;
-    top: 241px;
+    top: 133px;
     left: 609px;
     opacity: 0;
   }
   .kriv{
     position:absolute;
-    top: 197px;
+    top: -70px;
     left: 690px;
     opacity: 0;
   }
@@ -724,8 +725,8 @@ body {
   }
   .rad{
     position: absolute;
-    left: 765px;
-    top: 348px;
+    left: 763px;
+    top: 1000px;
     opacity: 0;
   }
   .drevl{
@@ -735,6 +736,7 @@ body {
     opacity: 0;
   }
   .btn1_wrapper{
+    animation-duration: 2s;
    
     &:hover{
       .vatichi{
@@ -744,44 +746,54 @@ body {
       .rad{
         opacity:1;
         transition:all 2s;
+        top: 240px;
       }
       .drag{
         opacity:1;
         transition:all 2s;
+        top: 235px;
       }
     }
   }
   .btn2_wrapper{
+    animation-duration: 2s;
   
     &:hover{
       .kriv{
         opacity:1;
         transition:all 2s;
+        top: 11px;
       }
       .rad{
         opacity:1;
+        top:1000px;
         transition:all 2s;
+        top: 160px;
       }
       .drag{
         opacity:1;
         transition:all 2s;
+        top: 156px;
       }
     }
   }
   .btn3_wrapper{
-    
+    animation-duration: 2s;
     &:hover{
       .kriv{
         opacity:1;
         transition:all 2s;
+      
       }
       .rad{
         opacity:1;
         transition:all 2s;
+        top: 81px;
       }
       .drevl{
         opacity:1;
         transition:all 2s;
+        top: 154px;
       }
     }
   }
@@ -849,3 +861,170 @@ body {
 
 
 //end map
+//uzlova
+.box{
+  background-color: #602323;
+  font-family: Arial ;
+  position: relative; 
+  width: 1110px;
+  height: 672px;
+  border: 1px solid black;
+  }
+    .sorocov{
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  
+  }
+  .pic {
+    position:relative;
+    left: 94px;
+    }
+  
+    .pic1{
+          margin-left: 95px;
+     
+    }
+    .pic2{
+     
+      left: 90;
+    }
+    .pic3{
+      left: 59;
+    }
+    .cotainer {
+      height: 70px;
+      width: 1110px;
+  
+    }
+   button {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: #b84443;
+    padding: 10px 50px 20px 50px;
+    border-radius: 12px;
+    }
+    .a1{
+      position: absolute;
+      text-decoration: none;
+      color: #000000;
+       left: 182px;
+      top: 324px;
+    }
+    .a2{
+      position: absolute;
+      text-decoration: none;
+      color: #000000;
+      top: 324px;
+      left: 565px;
+  
+      }
+      .a3{
+      position: absolute;
+      text-decoration: none;
+      color: #000000;
+          top: 324px;
+      left: 924px;
+  
+      }
+    .b1{
+      
+          position: absolute;
+      left: 103px;
+      top: 291px;
+      cursor:pointer;
+    }
+  .b2{
+    position: absolute;
+    left: 477px;
+      top: 291px;
+      cursor:pointer;
+    }
+   .b3{
+     position: absolute;
+     top: 291px;
+      left: 844px;
+      cursor:pointer;
+   }
+   .lamp1{
+            margin: 0px -32px 125px -47px;
+   }
+   .lamp0{
+      margin-left: -47px;
+      margin-right: -32px;
+      margin-bottom: 125px;
+   }
+   .cloud{
+      position: absolute;
+      left: 260px;
+      top: 401px;}
+  .zad {
+    position: absolute;
+    left: 596px;
+    width: 500px;
+    bottom: 36px;
+  }
+  .text_uzl{
+  font-size: 20px;
+  }
+  .nav {
+    position: absolute;
+    left: 376px;
+    bottom: 158px;
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  
+  .vistav{
+    position: absolute;
+    bottom: 79px;
+    width: 292px;
+    right: 90px;
+    font-size: 26px;
+  }
+   #modal_uzl_1{
+      display:none;
+      font-size: 40px;
+      width: 776px;
+      height: 550px;
+  }
+  #modal_uzl_2{
+      display:none;
+      font-size: 40px;
+      width: 770px;
+      height: 550px;
+  }
+  #modal_uzl_3{
+      display:none;
+      font-size: 40px;
+      width: 770px;
+      height: 550px;
+    }
+  .okno {
+    position: absolute;
+    left: 150px;
+  }
+  .okno1{
+    position: absolute;
+    left: 100px;
+  }
+  .happy{
+    position: absolute;
+    bottom: 0 ;
+  }
+  .sad{
+     position: absolute;
+    bottom: 0 ;
+    left: 0;
+  }
+  .sorokovik2{
+    animation-duration: 2s
+  }
+//end uzlova
+.lines{
+  margin-top: -53px;
+}
