@@ -1028,3 +1028,363 @@ body {
 .lines{
   margin-top: -53px;
 }
+
+//start sharkova polina 
+.tabs__sharkova{
+  border-bottom: none;
+    position: relative;
+    left: 4%;
+    top: -177px;
+}
+.tab-question__sharkova {
+  height: 672px;
+  width: 1100px;
+  background-color: #ffd868;
+  margin-top: 27px;
+  position: relative;
+  right: -10%;
+  overflow: hidden;
+}
+
+  h1{
+  font-size:36px;
+  }
+  span{
+  font-size:36px;
+  text-align: center;
+  display:block;
+  margin-bottom: 22px;
+  }
+  .text_polina {
+      background-color: #f7d061;
+      font-size: 26px;
+      text-align: center;
+      padding-right: 40px;
+      padding-left: 35px;
+      padding-bottom: 36px;
+      padding-top: 8px;
+      width: 100%;
+      margin-top: 30px;
+      max-width: 1050px;
+      margin-left: auto;
+      margin-right: auto;
+
+  
+  }
+  .sharic
+  {
+
+  height: 299px;
+  position: absolute;
+  bottom: 0;
+  width: 443px;
+
+
+  }
+  h2{
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 34px;
+      position: absolute;
+      bottom:50px;
+      left: 70px;}
+      .obl
+      {
+          position: absolute;
+          right: 552px;
+          bottom: 115px;
+          width: 276px; 
+          height: 201px;
+      }
+      .knopki
+      {
+          display: flex;
+          flex-wrap: wrap;
+          height: 203px;
+          width: 544px;
+          align-content: space-around;
+          justify-content: space-around;
+          position: absolute;
+          right: 3px;
+          bottom: 32px;
+      }
+  .knopka1
+  {
+  background-color: #d5b046;
+  right: 500px;
+  width: 240px;
+  height: 65px;
+  border-color: #565656;
+  border-radius: 1px;
+  font-size:28px;
+  font-weight: 15;
+  }
+  .knopka2
+  {
+
+      background-color: #d5b046;
+      right: 500px;
+      width: 240px;
+      height: 65px;
+      border-color: #565656;
+      border-radius: 1px;
+      font-size:28px;
+  }
+  .knopka3
+  {
+      background-color: #d5b046;
+      right: 550px;
+      width: 240px;
+      height: 65px;
+      border-color: #565656;
+      border-radius: 1px; 
+      font-size:28px;
+  }
+  .knopka4
+  {   background-color: #d5b046;
+      right: 550px;
+      width: 240px;
+      height: 65px;
+      border-color: #565656;
+      border-radius: 1px;
+      font-size:28px;
+
+
+  }
+  .reshi
+  {
+      font-size: 29px;
+      width: 192px;
+      text-align: center;
+      position: absolute;
+      margin-left: 317px;
+      bottom: 193px;
+  }
+  #modal36{
+      display: none;
+      font-size: 132px;
+      width: 893px;
+      height: 603px;
+  
+
+  
+  }
+  #modal37{
+      display:none;
+      font-size: 40px;
+
+      width: 945px;
+      
+      height: 591px;
+  
+  }
+  .nev
+  {
+      font-size: 40px;
+
+      position: absolute;
+      
+      bottom: 25px;
+      
+      left: 25px;
+    
+  }
+  .sadshar
+  {
+      width: 577px;
+
+      height: 489px;
+      
+      position: relative;
+      
+      right: -107px;
+      
+      bottom: 58px;
+  
+  }
+  .kindshar
+  {
+      width: 890px;
+
+      height: 460px;
+      
+      position: relative;
+      
+      right: -9px;
+      
+      bottom: 27px;
+
+  }
+  .ver
+{
+  position: absolute;
+
+  right: 97PX;
+  bottom: 26px;
+
+
+}
+ //end the first polina
+
+ //start polina the second sharkova
+
+ .desk
+ {
+     display: block;
+     margin: 0 auto;
+     margin-top: 0px;
+     height: 385px;
+     width: 818px;
+ }
+ .money
+ {
+     
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+ }
+ .sharic
+ {
+     position: absolute;
+     bottom: 0;
+     width: 461px;
+     height: 297px;
+ }
+.obl_polina
+{
+ position: absolute;
+ right: 471px;
+ bottom: 92px;
+}
+.text_polina2
+{
+ position: absolute;
+ font-size: 23px;
+ text-align: center;
+ left: 329px;
+ bottom: 170px;
+
+}
+.graf1
+{
+ position: absolute;
+ top: 50px;
+ left: 182px;
+}
+.graf2
+{
+ position: absolute;
+ top: 32px;
+ left: 416px;
+}
+.graf3
+{
+ position: absolute;
+ top: 62px;
+ left: 623px;
+}
+.odin
+{
+  background-color: white;
+  position: absolute;
+  top: 301px;
+  font-size: 30px;
+  color: red;
+  left: 288px;
+  border-color: white;
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 11px;
+  
+}
+.dva
+{
+  background-color: white;
+  position: absolute;
+  top: 301px;
+  font-size: 30px;
+  color: red;
+  left: 513px;
+  border-color: white;
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 11px;
+
+}
+.tri
+{
+  background-color: white;
+  position: absolute;
+  top: 301px;
+  font-size: 30px;
+  color: red;
+  left: 769px;
+  border-color: white;
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 11px;
+
+}
+#graf
+{
+ display:none;
+ font-size: 40px;
+
+ width: 945px;
+ 
+ height: 591px;
+
+}
+#mod
+{
+ display: none;
+
+ font-size: 132px;
+ width: 935px;
+ height: 603px;
+
+}
+.zlost
+{
+
+ width: 891px;
+height: 481px;
+position: relative;
+right: 0px;
+bottom: 68px;
+ 
+ }
+ .verno
+ {
+   
+     position: absolute;
+     right: 82PX;
+     bottom: 40px;
+ }
+ .neverno
+ {
+     font-size: 40px;
+
+     position: absolute;
+     
+     bottom: 25px;
+     
+     left:173px;
+     text-align: center;
+ }
+ .radost
+ {
+     width: 890px;
+
+     height: 460px;
+     
+     position: relative;
+     
+     right: -7px;
+     
+     bottom: 27px;
+ }
+ .fa-search:before{
+  display:none
+}
+ //end polina the second sharkova
