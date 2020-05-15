@@ -39,7 +39,10 @@ html {
 html,
 body {
   height: 100%;
-  overflow-x: hidden
+  overflow-x: hidden;
+ 
+    background-image: url(../images/knigiebuchie.png);
+  
 }
 
 .product-one__tabs {
@@ -1388,3 +1391,134 @@ bottom: 68px;
   display:none
 }
  //end polina the second sharkova
+
+ //start diana
+ #our {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6em;
+  top: 0;
+  left: 40%;
+  position: absolute;
+}
+
+#notour {
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6em;
+  top: 0;
+  right: 40%;
+}
+
+.tochka {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6em;
+  margin-left: 541px;
+}
+
+#pong {
+  background-image: url(../images/воллейбол.png);
+  background-size: cover;
+  width: 1110px;
+  height: 672px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.player-padel {
+  height: 100%;
+  width: 100%;
+}
+
+.ai-padel {
+  height: 100%;
+  width: 100%;
+}
+
+#ai-padel {
+  right: 0;
+}
+
+.ball {
+  width: 100%;
+  height: 100%;
+  left: 460px;
+  top: 140px;
+}
+
+#ball {
+  background-color: #ffffb9;
+  width: 4.1%;
+  height: 7%;
+  left: 460px;
+  top: 140px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.fizlico {
+  position: absolute;
+  height: 42%;
+  left: 0;
+  bottom: 0;
+}
+
+.fizobl {
+  position: absolute;
+  left: 26%;
+  bottom: 16%;
+}
+
+.fvoblake {
+  position: absolute;
+  left: 28.8%;
+  bottom: 29.3%;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.padel {
+  height: 22%;
+  width: 10.5%;
+  position: absolute;
+}
+
+#start {
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+  top: 33%;
+  right: 33%;
+  background-color: #f1e74b;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 37%;
+  height: 12.1%;
+}
+
+#start:hover {
+  background-color: #ffde03;
+  color: white;
+}
+.container_zhurko{
+  background-image:url(../images/zhurko/thumb-1920-213776.jpg);
+  width: 100%;
+}
+.tab-question__zhurko{
+  height: 672px;
+  width: 1100px;
+  background-color: #ffd868;
+  margin-top: 27px;
+  position: relative;
+  right: -30%;
+  overflow: hidden;
+}
+.tabs__zhurko{
+  position: absolute;
+  top: 61px;
+  left: 84px;
+}
+
+
+ //end diana
