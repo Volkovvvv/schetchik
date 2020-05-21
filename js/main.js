@@ -303,3 +303,21 @@ $(function(){
         }
         mismatchSound.play();
     }
+    $('#click').click(function(){ $('#main').show(); $('#click').hide(); });
+    $('#click-2').click(function(){ $('#main-2').show(); $('#click-2').hide(); });
+    $('#click-3').click(function(){ $('#main-3').show(); $('#click-3').hide(); });
+    $('#click-4').click(function(){ $('#main-4').show(); $('#click-4').hide(); });
+    $('#click-5').click(function(){ $('#main-5').show(); $('#click-5').hide(); });
+    $('#click-6').click(function(){ $('#main-6').show(); $('#click-6').hide(); });
+    $('#click-7').click(function(){ $('#main-7').show(); $('#click-7').hide(); });
+    $('#click-8').click(function(){ $('#main-8').show(); $('#click-8').hide(); });
+    $('#click-9').click(function(){ $('#main-9').show(); $('#click-9').hide(); });
+    $('#click-10').click(function(){ $('#main-10').show(); $('#click-10').hide(); });
+    $('#click-11').click(function(){ $('#main-11').show(); $('#click-11').hide(); });
+    $('#click-12').click(function(){ $('#main-12').show(); $('#click-12').hide(); });
+    $('#click-13').click(function(){ $('#main-13').show(); $('#click-13').hide(); });
+    $('#click-14').click(function(){ $('#main-14').show(); $('#click-14').hide(); });
+    $('#click-15').click(function(){ $('#main-15').show(); $('#click-15').hide(); });
+    $('#click-16').click(function(){ $('#main-16').show(); $('#click-16').hide(); });
+    $('#click-17').click(function(){ $('#main-17').show(); $('#click-17').hide(); });
+    $('#click-18').click(function(){ $('#main-18').show(); $('#click-18').hide(); });
