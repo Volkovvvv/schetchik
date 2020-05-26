@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="import" href="pavlova.html">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">
+    
+    <div class="container-sorokovik">
         <div class="product-one__tabs">
             <div class="tabs">
                 <div class="ul">
@@ -84,9 +86,8 @@
                                     <li onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play(); " data-fancybox data-src="#modal5" href="javascript:;" class="five right1"></li>
                                 </ul>
                             </div>
-                            <img src="images/sorokovik-schetchik.png" alt="">
-                            <span class="schet">0</span>
-                            <button><a href="beloded.html">dffdfdfdfd</a></button>
+                            <img class="img-schet-sor"src="images/sorokovik-schetchik.png" alt="">
+                            <span id="time" class="schet">0</span>
                             <div class="text animated heartBeat">У якім годзе было першае згадванне пра Полацк?</div>
                             <img class="books animated fadeInRight" src="images/стопка.png" alt="">
                             <div class="sorokovik1 animated fadeInRight">
@@ -97,6 +98,7 @@
                 </div>
                 <div class="tab-item " id="2">
                     <div class="tab-question2">
+                        <img class="img-schet-sor"src="images/sorokovik-schetchik.png" alt="">
                         <span class="schet">0</span>
                         <div class="lines">
                             <img src="images/ost/liness.png" alt="">
@@ -118,12 +120,13 @@
                 </div>
                 <div class="tab-item " id="3">
                     <div class="tab-question3">
+                        <img class="img-schet-sor"src="images/sorokovik-schetchik.png" alt="">
                         <span class="schet">0</span>
                         <div class="lines-nep">
                             <img src="images/nep/lines-nep.png" alt="">
                         </div>
                         <button onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play(); " class="button-1-nep error7 animated bounceInRight" data-fancybox data-src="#modal7" href="javascript:;">1</button>
-                        <button onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play(); return false;" class="button-2-nep right3 animated bounceInRight" data-fancybox data-src="#modal6" href="javascript:;">2</button>
+                        <button onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play(); ;" class="button-2-nep right3 animated bounceInRight" data-fancybox data-src="#modal6" href="javascript:;">2</button>
                         <button onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play(); " class="button-3-nep error8 animated bounceInRight" data-fancybox data-src="#modal8" href="javascript:;">3</button>
                         <div class="answers">
                             <div class="answer-1-nep  animated zoomInUp">Новый экономический подъем</div>
@@ -139,6 +142,7 @@
                 </div>
                 <div class="tab-item " id="4">
                     <div class="tab-question4">
+                        <img class="img-schet-sor"src="images/sorokovik-schetchik.png" alt="">
                         <span class="schet">0</span>
                         <div class="var">Варианты ответа</div>
                         <div class="btn1_wrapper error12 animated rollIn" data-fancybox data-src="#modal9" href="javascript:;">
@@ -174,6 +178,8 @@
                 </div>
                 <div class="tab-item " id="5">
                     <div class="tab-question4">
+                        <img class="img-schet-sor"src="images/sorokovik-schetchik.png" alt="">
+                        <span class="schet">0</span>
                         <div class="box">
                             <div>
                                 <img class="pic1 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1s " src="img/минд.png" alt="миндовг" height="340px" width="248px">
@@ -182,33 +188,33 @@
                                 <img class="lamp0" src="img/svet.png" alt=" светильник">
                                 <img class="pic3 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1.4s" src="img/rag.png" alt="рагвалод" height="340px" width="248px">
                             </div>
-                            <div class="buttons">
-                                <img src="img/кнопка.png" alt="" class="b1 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">
+                            <div class="buttons ">
+                                <img src="img/кнопка.png" alt="" class="b1 right5  wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">
 
-                                <div data-fancybox data-src="#modal1" href="javascript:;">
-                                    <a href="#" onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play()" class="a1 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">Міндоўг</a>
+                                <div  data-fancybox data-src="#modal_uzl_1" href="javascript:;">
+                                    <a href="#" onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play()" class="right5 a1   wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">Міндоўг</a>
                                 </div>
                                 <div id="modal_uzl_1">
                                     <span class="okno">Згоден з табою. Маладзец!!!</span>
                                     <img src="img/radostny.png" alt="" class="happy" width="670px" height="450px">
                                 </div>
 
-                                <img src="img/кнопка.png" alt="" class="b2 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">
+                                <img src="img/кнопка.png" alt="" class="b2 error15 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">
 
-                                <div data-fancybox data-src="#modal2" href="javascript:;">
-                                    <a href="#" onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play(); return false;" class="a2 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">Вітаўт</a>
+                                <div data-fancybox data-src="#modal_uzl_2" href="javascript:;">
+                                    <a href="#" onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play(); ;" class="a2 error15 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">Вітаўт</a>
                                 </div>
                                 <div id="modal_uzl_2">
                                     <span class=" okno1">Колькi у табе было па гiсторыi ў школе???</span>
                                     <img src="img/grust.png" alt="" class="sad" width="700px" height="500px">
                                 </div>
 
-                                <img src="img/кнопка.png" alt="" class="b3 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">
+                                <img src="img/кнопка.png" alt="" class="b3  error16 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">
                                 <div class="sorokovik2 animated fadeInRight">
                                     <img class="ded" src="images/сороковичок.png" alt="">
                                 </div>
-                                <div data-fancybox data-src="#modal3" href="javascript:;">
-                                    <a href="#" onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play(); return false;" class="a3 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">Рагвалод</a>
+                                <div data-fancybox data-src="#modal_uzl_3" href="javascript:;">
+                                    <a href="#" onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play();;" class="a3 error16 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="2s">Рагвалод</a>
                                 </div>
                                 <div id="modal_uzl_3">
                                     <span class=" okno1">Трэба лепш рыхтавацца к маiм заняткам!!!</span>

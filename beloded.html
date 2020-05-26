@@ -20,8 +20,8 @@
     <div class="container__beloded-fon">
         <div class="product-one__tabs">
             <div class="tabs__pavlova">
-                <div class="ul">
-                    <div class="li">
+                <div class="ulbel">
+                    <div class="libel">
                         <a href="#">
                             <span class="tab active" data-id="1"></span>
                             <span class="tab active" data-id="1"></span>
@@ -31,7 +31,7 @@
                                     src="images/лумпа.png"></span>
                         </a>
                     </div>
-                    <div class="li">
+                    <div class="libel">
                         <a href="#">
                             <span class="tab" data-id="2"></span>
                             <span class="tab" data-id="2"></span>
@@ -49,6 +49,8 @@
                 <div class="tab-item active-tab" id="1">
                    
                         <div class="tab-question__beloded">
+                            <img class="img-schet-bel" src="img/bely-schetchik.png" alt="">
+                            <span class="schet">0</span>
                             <img src="img/bel1.png" class="bel1__iluxa-beloded wow bounceInRight"
                                 data-wow-duration="1.5s" data-wow-delay="0.5s">
                             <img src="img/oblako.png" class="oblako-iluxa-beloded wow bounceInUp" data-wow-duration="1s"
@@ -63,12 +65,9 @@
                                 <br>
                                 цифру в числе а?
                             </p>
-                            <button data-fancybox data-src="#modal1__iluxa-beloded" href="javascript:;"
-                                class="button-1-iluxa-beloded"></button>
-                            <button data-fancybox data-src="#modal2__iluxa-beloded" href="javascript:;"
-                                class="button-2-iluxa-beloded"></button>
-                            <button data-fancybox data-src="#modal3__iluxa-beloded" href="javascript:;"
-                                class="button-3-iluxa-beloded"></button>
+                            <button onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play();" data-fancybox data-src="#modal1__iluxa-beloded" href="javascript:;" class="button-1-iluxa-beloded error-bely1"></button>
+                            <button onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play();" data-fancybox data-src="#modal2__iluxa-beloded" href="javascript:;" class="button-2-iluxa-beloded error-bely2"></button>
+                            <button onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play(); " data-fancybox data-src="#modal3__iluxa-beloded" href="javascript:;" class="button-3-iluxa-beloded right-bely1"></button>
                             <div id="modal1__iluxa-beloded">
                                 <img сlass="emotions__iluxa-beloded" src="img/bel4.png" alt="" alt
                                     style=height:300px;margin-top:-60px;margin-right:70px;>
@@ -90,36 +89,60 @@
                 </div>
                 <div class="tab-item " id="2">
                     <div class="tab-question__beloded-belous ">
-                        <img src="pictures/фон.png" class="fone__belous">
-                        <img src="pictures/облако .png" class="cloud__belous wow jackInTheBox" data-wow-duration="1.5s">
-                        <img src="pictures/bel1.png" class="bel__belous wow bounceInRight" data-wow-duration="1.5s">
-                        <img src="pictures/кнопка 1.png" class="k1__belous">
-                        <img src="pictures/кнопка 2.png" class="k2__belous">
-                        <img src="pictures/кнопка 3.png" class="k3__belous">
-                        <p class="text__belous">
-                            Выберите правильную
-                            <br>
-                            директиву препроцессора
-                            <br>
-                            позволяющую использовать средства
-                            <br>
-                            ввода/вывода на языке C.
-                        </p>
-                        <p class="text1__belous">
-                            #include
-                            <br>
-                            < math.h>
-                        </p>
-                        <p class="text2__belous">
-                            #include
-                            <br>
-                            < iostream>
-                        </p>
-                        <p class="text3__belous">
-                            #include
-                            <br>
-                            < stdio.h>
-                        </p>
+
+                        <div class="tab-question__beloded-belous ">
+                           
+                            <div class="boxass">
+                                <img class="img-schet-bel" src="img/bely-schetchik.png" alt="">
+                                <span class="schet">0</span>
+                                <img src="pictures/фон.png" class="foneass">
+                                <img src="pictures/облако .png" class="cloudass">
+                                <img src="pictures/bel1.png" class="belass">
+                                <div data-fancybox data-src="#kknopka1ass" class="error-bely3" href="javascript:;">
+                                    <img onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play();" src="pictures/кнопка 1.png" class="k1ass">
+                                </div>
+                                <div data-fancybox data-src="#kknopka1ass" class="error-bely4" href="javascript:;">
+                                    <img onclick="new Audio('Audio/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3').play();" src="pictures/кнопка 2.png" class="k2ass">
+                                </div>
+                                <div data-fancybox data-src="#kknopka2ass" class="right-bely2" href="javascript:;">
+    
+                                    <img onclick="new Audio('Audio/line_open (mp3cut.net).mp3').play(); " src="pictures/кнопка 3.png" class="k3ass">
+                                </div>
+                                <p class="textass">
+                                    Выберите правильную
+                                    <br> директиву препроцессора
+                                    <br> позволяющую использовать средства
+                                    <br> ввода/вывода на языке C.
+                                </p>
+                                <p class="text1ass">
+                                    #include
+                                    <br>
+                                    < math.h>
+                                </p>
+                                <p class="text2ass">
+                                    #include
+                                    <br>
+                                    < iostream>
+                                </p>
+                                <p class="text3ass">
+                                    #include
+                                    <br>
+                                    < stdio.h>
+                                </p>
+                            </div>
+                            <div id="kknopka1ass">
+                                <img class="kartass" src="pictures/bez3.png" width="715px" height="480px" class="zloybeli">
+                                <p class="spalass">Неверно! Ты опять спал на лекции? </p>
+                            </div>
+                            <div id="kknopka2ass">
+                                <img class="kartass" src="pictures/bel2.png" width="670px" height="450px" class="dobribeli">
+    
+                                <p class="nauchass"> Молодец! Не хочешь написать<br> научную работу???</p>
+                            </div>
+    
+                            <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+                            <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-item " id="3">
