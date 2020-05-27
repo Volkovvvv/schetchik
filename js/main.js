@@ -19,7 +19,19 @@ $(function() {
 
     var ochlilocal = 0;
 
-
+    
+    $('.finalochka').on('click', function() {
+        if (ochlilocal>5)
+         { 
+             window.location.href = 'final.html';
+         }
+         {
+          
+        }
+            
+        
+    
+    });
     if (localStorage.getItem('schetchik1.1') !== null) {
         var ball = localStorage.getItem('schetchik1.1');
         $('.right1').addClass('none');
@@ -1524,8 +1536,11 @@ $(function() {
         localStorage.setItem('schetchik20', 'error20');
         localStorage.setItem('schet', JSON.stringify(ochlilocal));
 
+
     });
 
+
+  
 
 
 
