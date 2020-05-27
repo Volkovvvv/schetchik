@@ -99,10 +99,10 @@ var swiper = new Swiper('.swiper-container', {
         $('.proshel-gv').addClass('block');
     });
 
-    $('.select__sh-btn').on('click',function()
+    $('.select__shar-btn').on('click',function()
     {
-        $('.select__sh-btn').addClass('disabled');
-        $('.proshel-sh').addClass('block');
+        $('.select__shar-btn').addClass('disabled');
+        $('.proshel-shar').addClass('block');
     });
 
     $('.select__zh-btn').on('click',function()

@@ -18,19 +18,14 @@ $(function() {
 
 
     var ochlilocal = 0;
+    $('.posled').on('click', function() {
+        if (ochlilocal >= 15) {
+            window.location.href = 'final.html';
+        } else window.location.href = 'lose.html';
+    });
 
-    
     $('.finalochka').on('click', function() {
-        if (ochlilocal>5)
-         { 
-             window.location.href = 'final.html';
-         }
-         {
-          
-        }
-            
-        
-    
+        window.location.href = 'analiz.html';
     });
     if (localStorage.getItem('schetchik1.1') !== null) {
         var ball = localStorage.getItem('schetchik1.1');
@@ -1540,7 +1535,7 @@ $(function() {
     });
 
 
-  
+
 
 
 

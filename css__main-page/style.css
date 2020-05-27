@@ -142,7 +142,6 @@ p {
     display: none;
 }
 
-
 .swiper-slide {
     overflow: hidden;
 }
@@ -243,7 +242,11 @@ a {
 .block {
     display: block;
 }
-.slozno{
-    color:#fff;
-    font-size:45px;
-  }
+
+.slozno {
+    color: #fff;
+    font-size: 1em;
+    position: absolute;
+    left: 22%;
+    top: 2%;
+}
